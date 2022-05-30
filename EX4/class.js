@@ -24,7 +24,7 @@ return this.weight;
     }
 
     toString() {
-console.log()
+console.log("tôi là"+ this.name+ this.weight +"kg")
     }
 }
 let objAniamal1 = new Animal();
