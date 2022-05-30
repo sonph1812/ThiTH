@@ -28,8 +28,8 @@ console.log("tôi là"+ this.name+ this.weight +"kg")
     }
 }
 let objAniamal1 = new Animal();
-let objAniamal2 = new Animal();
-objAniamal1.toString()
+let objAniamal2 = new Animal("mouse",10);
 objAniamal2.getName("mouse")
 objAniamal1.setName("elephant")
-objAniamal2.setWeight("5")
+objAniamal1.toString()
+
